@@ -53,7 +53,7 @@ function AdminModal({ onClose, onLogin }) {
   const overlay = { position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.55)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000 }
   const card = { background: 'white', borderRadius: '18px', padding: '36px 32px', width: '100%', maxWidth: '420px', margin: '16px', boxShadow: '0 24px 64px rgba(0,0,0,0.28)', position: 'relative' }
   const grp = { marginBottom: '16px' }
-  const lbl = { display: 'block', fontSize: '13px', fontWeight: '600', marginBottom: '6px', color: '#4a5568', display: 'flex', alignItems: 'center' }
+  const lbl = { fontSize: '13px', fontWeight: '600', marginBottom: '6px', color: '#4a5568', display: 'flex', alignItems: 'center' }
   const inp = { width: '100%', padding: '11px 14px', border: '1.5px solid #e2e8f0', borderRadius: '9px', fontSize: '14px', outline: 'none', boxSizing: 'border-box', fontFamily: 'inherit' }
 
   const handleSubmit = async (e) => {
