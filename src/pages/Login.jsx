@@ -4,7 +4,7 @@ import { LogoIcon } from '../components/Logo'
 import './Login.css'
 
 // ── API base URL — change this if your backend runs on a different port ──────
-const API_BASE = 'http://localhost:8080/api'
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api'
 
 // ── JWT helpers ───────────────────────────────────────────────────────────────
 export function saveToken(token) { localStorage.setItem('jwtToken', token) }
